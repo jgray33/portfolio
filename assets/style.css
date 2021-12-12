@@ -17,6 +17,7 @@ header {
 
 
 nav {
+box-sizing: border-box;
 background-color: black;
 color: white;
 display: flex;
@@ -30,6 +31,10 @@ margin-left: 10px;
 
 a:link, a:visited {
     color: white;
+}
+
+h1 {
+    color: #648381;
 }
 
 .about-me {
@@ -49,8 +54,12 @@ width: 20%;
 }
 
 .about-me-text {
+padding: 10px;
+background-color:#e5ebea;
+color: black;
 display: flex;
 flex-wrap: wrap;
+justify-content: center;
 height: 20%;
 length: 100%;
 margin: 10%;
