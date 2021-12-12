@@ -1,0 +1,25 @@
+
+
+header {
+        border: solid 3px black;
+}
+
+header h1 {
+      text-align: center;
+}
+
+.social-media ul {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+nav ul li{ 
+    display: inline-block;
+    margin-left: 10px;
+    position: right;
+    }
+
+.nav-links {
+display: flex;
+float: right;
+}
