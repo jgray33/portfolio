@@ -1,7 +1,6 @@
 * {
-    font-family: "lato"
-}
-
+    font-family: "lato";
+    }
 
 
 header {
@@ -13,18 +12,12 @@ header {
     
 }
 
-.social-media ul li {
-    display: inline-block;
-margin-left: 5px;
-}
-
 nav {
 background-color: black;
 color: white;
 border: solid 3px black;
-
-
 }
+
 nav ul li{ 
 display: inline-block;
 margin-left: 10px;
@@ -35,9 +28,14 @@ display: flex;
 justify-content: right;
  }
 
+a:link, a:visited {
+    color: white;
+}
+
 .about-me {
+    color: white;
+    background-color: #648381;
 margin-top: 10px;
-border: solid 3px black;
 display: inline-flex; 
 width: 100%;
 }
@@ -53,7 +51,6 @@ width: 20%;
 .about-me-text {
 display: flex;
 flex-wrap: wrap;
-border: solid 3px black;
 height: 20%;
 length: 100%;
 margin: 10%;
@@ -102,8 +99,13 @@ margin: 10px;
 }
 
 footer {
-     background-color: #F1F1F1;
+     background-color:black;
     text-align: center;
     padding: 10px;
   }
+}
+
+.social-media ul li {
+    display: inline-block;
+margin-left: 5px;
 }
