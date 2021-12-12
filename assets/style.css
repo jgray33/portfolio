@@ -24,6 +24,12 @@ display: flex;
 justify-content: right;
 }
 
+button {
+    background-color: white;
+    color: bl;
+    border-radius: 30px;
+}
+
 nav ul li{ 
 display: inline-block;
 margin-left: 10px;
@@ -76,6 +82,14 @@ float: left;
 width: 33.3%;
 }
 
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
 .project-pictures {
     width: 50%;
     height: 50%;
@@ -91,26 +105,13 @@ h2 {
   padding: 10%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-
 @media screen and (max-width:600px) {
 .column {
   width: 100%;
 }
 }
 
-@media screen and (max-width:600px) {
-.nav{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
-    }
+
 
 form {
 margin-top: 10px;
