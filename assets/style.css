@@ -4,29 +4,29 @@
 
 
 header {
-    text-align: center;
     background-color: black;
     color:white;
     border: solid 3px black;
     length: 100%;
-    
-}
+    }
+
+.header-flex {
+    display: flex;
+    justify-content: flex-end;
+    }
+
 
 nav {
 background-color: black;
 color: white;
-border: solid 3px black;
+display: flex;
+justify-content: right;
 }
 
 nav ul li{ 
 display: inline-block;
 margin-left: 10px;
         }
-
-.nav-links {
-display: flex;
-justify-content: right;
- }
 
 a:link, a:visited {
     color: white;
@@ -54,11 +54,10 @@ flex-wrap: wrap;
 height: 20%;
 length: 100%;
 margin: 10%;
-
     }
 
 .portfolio {
-border: solid 3px black;
+background-color:#e5ebea;
 margin-top: 10px;
 }
 
@@ -82,14 +81,15 @@ clear: both;
 }
 
 
-
-
 form {
-border: solid 3px black;
 margin-top: 10px;
+background-color: #37323e;
 }
 
 .contact-form {
+display: flex;
+justify-content: center;
+color: white;
 display: flex;
 align-items: center;
 }
@@ -99,7 +99,8 @@ margin: 10px;
 }
 
 footer {
-     background-color:black;
+    margin-top: 10px;
+    background-color:black;
     text-align: center;
     padding: 10px;
   }
