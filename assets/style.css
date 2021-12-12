@@ -76,6 +76,21 @@ float: left;
 width: 33.3%;
 }
 
+.project-pictures {
+    width: 50%;
+    height: 50%;
+}
+
+
+h2 {
+    margin:auto;
+    width: 50%;
+    }
+
+#horiseon img{
+  padding: 10%;
+}
+
 /* Clear floats after the columns */
 .row:after {
 content: "";
@@ -89,6 +104,13 @@ clear: both;
 }
 }
 
+@media screen and (max-width:600px) {
+.nav{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    }
 
 form {
 margin-top: 10px;
