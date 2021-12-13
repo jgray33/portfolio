@@ -24,20 +24,31 @@ display: flex;
 justify-content: right;
 }
 
-button {
-    background-color: white;
-    color: bl;
-    border-radius: 30px;
-}
-
 nav ul li{ 
 display: inline-block;
 margin-left: 10px;
         }
 
-a:link, a:visited {
+button {
+border-radius: 20px;
+border-color: white;
+padding: 10px 20px;
+background-color: black;
+}
+
+button:hover {
+    background-color:white ;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
     color: white;
 }
+
 
 h1 {
     color: #648381;
