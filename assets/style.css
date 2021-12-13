@@ -1,5 +1,7 @@
 * {
     font-family: "lato";
+    margin: 0;
+    padding: 0;
     }
 
 
@@ -8,23 +10,37 @@ header {
     color:white;
         }
 
-.header-flex {
-    display: flex;
-    justify-content: flex-end;
-    }
-
 
 nav {
-box-sizing: border-box;
 background-color: black;
-display: flex;
-justify-content: right;
+
 }
 
-nav ul li{ 
-display: inline-block;
-margin-left: 10px;
-        }
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    nav ul {
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 
  /* Nav button styling  */
 button {
@@ -38,20 +54,10 @@ button:hover {
   transform: translateY(-2px);
 }
 
-
-
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-}
-
 .jg {
 position: absolute;
 left: 50%;
+top: 5%;
 }
 
 h2 {
@@ -123,7 +129,6 @@ h2 {
   width: 100%;
 }
 }
-
 
 
 form {
