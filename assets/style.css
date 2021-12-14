@@ -26,6 +26,12 @@ text-align: center;
 padding: 2%;
 }
 
+/* Contact me header formatting  */
+h4 {
+    text-align: center;
+    font-size: 30px;
+        }
+
 /* NavBar background color */
 nav {
 background-color: black;
@@ -33,7 +39,6 @@ background-color: black;
 
 /* Nav lin */
 nav ul {
-    padding: 10px;
     display: flex;
     justify-content: right;
     list-style: none;
@@ -41,7 +46,6 @@ nav ul {
 
 nav ul li {
     padding: 10px;
-
 }
 
 nav ul li a {
@@ -56,7 +60,6 @@ nav ul li a {
         text-align: center;
     }
 }
-
 
  /* Nav button styling  */
 button {
@@ -73,6 +76,7 @@ button:hover {
 
 .about-me {
 position: relative;
+align-items: center;
 color: white;
 background-color: #648381;
 margin-top: 10px;
@@ -80,7 +84,6 @@ margin: auto;
 display: inline-flex; 
 display: flex;
 width: 80%;
-length:50%
 }
 
 .jg-pastry {
@@ -91,13 +94,11 @@ width: 20%;
 }
 
 .about-me-text {
-position: absolute;
+position: relative;
+margin: auto;
 padding: 10px;
 background-color:#e5ebea;
 color: black;
-left: 20%;
-length: 50%;
-margin: 10%;
     }
 
 .portfolio {
@@ -111,7 +112,6 @@ margin-top: 10px;
 .column {
 float: left;
 width: 33.3%;
-margin left: 5%;
 }
 
 
@@ -150,33 +150,56 @@ card {
     
 }
 
-
-
-
-
 @media screen and (max-width:600px) {
 .column {
   width: 100%;
 }
 }
 
-
 form {
+width: 80%;
+margin: auto;
 margin-top: 10px;
 background-color: #37323e;
 }
 
+
+
 .contact-form {
-display: flex;
-justify-content: center;
+position: relative;
 color: white;
-display: flex;
-align-items: center;
+align-items: center ;
 }
 
-label, button {
-margin: 10px;
+label  {
+    flex-direction: column;
+    position: relative;
+padding: 12px 12px 12px 0;
+display: inline-block;
 }
+
+input[type=text], textarea {
+    width: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+        }
+
+
+
+ /* Submit button styling  */
+ .submit {
+color: white;
+border-color: white;
+background-color: black;
+position: relative;
+margin: auto;
+margin-bottom: 2%;
+    }
+    
+/* When hover on the button, it pops up */
+.submit:hover {
+ transform: translateY(-2px);
+    }
 
 footer {
     margin-top: 10px;
@@ -184,9 +207,13 @@ footer {
     text-align: center;
     padding: 10px;
   }
-}
 
-.social-media ul li {
-    display: inline-block;
-margin-left: 5px;
-}
+footer a:link {
+    text-decoration: none;
+    color: white;
+    }
+
+footer a:visited {
+      color: white;
+        }
+    
