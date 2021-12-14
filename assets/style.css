@@ -4,9 +4,11 @@
 
  /* Name styling */
 h1 {
+font-size: 50px;
 position: absolute;
 left: 50%;
 top: 5%;
+text-align: center;
 }
 
 /* About me header styling */
@@ -74,6 +76,7 @@ button:hover {
 }
 
 
+/* Green about-me box */
 .about-me {
 position: relative;
 align-items: center;
@@ -88,15 +91,18 @@ width: 80%;
 
 .jg-pastry {
 position: relative;
+left: 5%;
 margin: 10%;
 height: 20%;
 width: 20%;
 }
 
 .about-me-text {
-position: relative;
+position: absolute;
+width: 50%;
+height: 60%;
+right: 15%;
 margin: auto;
-padding: 10px;
 background-color:#e5ebea;
 color: black;
     }
