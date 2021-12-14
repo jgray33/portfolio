@@ -135,23 +135,17 @@ card {
   max-width: 50%;
   max-height: 50%;
   margin-left: 25%;
+  padding-bottom: 10%;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
-  padding: 1px 4px;
-}
 
-.container p {
-  text-align: center;
-  flex-wrap: wrap;
-  padding: 2%;
-}
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 765px) {
   .column {
     width: 100%;
   }
