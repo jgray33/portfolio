@@ -1,73 +1,73 @@
 * {
-    font-family: "lato";
-          }
+  font-family: "lato";
+}
 
- /* Name styling */
+/* Name styling */
 h1 {
-font-size: 50px;
-position: absolute;
-left: 50%;
-top: 5%;
-text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  margin: 10px;
 }
 
 /* About me header styling */
 h2 {
-font-weight: bold;
-color: #648381 ;
-padding: 2%;
-display: flex;
-justify-content: center;
+  font-weight: bold;
+  color: #648381;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
 }
 
 /* My projects header styling */
 h3 {
-font-weight: bold;
-font-size: 30px;
-text-align: center;
-padding: 2%;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 2%;
 }
 
 /* Contact me header formatting  */
 h4 {
-    text-align: center;
-    font-size: 30px;
-        }
+  text-align: center;
+  font-size: 30px;
+}
 
 /* NavBar background color */
 nav {
-background-color: black;
+  background-color: black;
 }
 
 /* Nav lin */
 nav ul {
-    display: flex;
-    justify-content: right;
-    list-style: none;
+  display: flex;
+  justify-content: right;
+  list-style: none;
 }
 
 nav ul li {
-    padding: 10px;
+  padding: 10px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (max-width: 767px) {
-    nav ul {
-        height: 230px;
-        flex-direction: column;
-        text-align: center;
-    }
+  nav ul {
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
- /* Nav button styling  */
+/* Nav button styling  */
 button {
-border-color: white;
-padding: 10px 20px;
-background-color: black;
+  border-color: white;
+  padding: 10px 20px;
+  background-color: black;
 }
 
 /* When hover on the button, pops up */
@@ -75,74 +75,70 @@ button:hover {
   transform: translateY(-2px);
 }
 
-
 /* Green about-me box */
 .about-me {
-position: relative;
-align-items: center;
-color: white;
-background-color: #648381;
-margin-top: 10px;
-margin: auto;
-display: inline-flex; 
-display: flex;
-width: 80%;
+  position: relative;
+  align-items: center;
+  color: white;
+  background-color: #648381;
+  margin-top: 10px;
+  margin: auto;
+  display: flex;
+  
+  width: 80%;
 }
 
 .jg-pastry {
-position: relative;
-left: 5%;
-margin: 10%;
-height: 20%;
-width: 20%;
+  position: relative;
+  left: 5%;
+  margin: 10%;
+  height: 20%;
+  width: 20%;
 }
 
 .about-me-text {
-position: absolute;
-width: 50%;
-height: 60%;
-right: 15%;
-margin: auto;
-background-color:#e5ebea;
-color: black;
-    }
+  position: relative;
+  width: 50%;
+  height: 60%;
+  left: 5%;
+  background-color: #e5ebea;
+  color: black;
+}
 
 .portfolio {
-    width: 80%;
-    margin: auto;
-background-color:#e5ebea;
-margin-top: 10px;
+  width: 80%;
+  margin: auto;
+  background-color: #e5ebea;
+  margin-top: 10px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
-float: left;
-width: 33.3%;
+  float: left;
+  width: 33.3%;
 }
-
 
 /* Clear floats after the columns */
 .row:after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-
 card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin-right: 10px;
-  }
+}
 
 .project-img {
-    max-width: 50%;
-    max-height: 50%;
-    margin-left: 25%;
-     }
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: 25%;
+}
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -150,76 +146,71 @@ card {
 }
 
 .container p {
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 2%;
-    
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 2%;
 }
 
-@media screen and (max-width:600px) {
-.column {
-  width: 100%;
-}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 form {
-width: 80%;
-margin: auto;
-margin-top: 10px;
-background-color: #37323e;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #37323e;
 }
-
-
 
 .contact-form {
-position: relative;
-color: white;
-align-items: center ;
+  position: relative;
+  color: white;
+  align-items: center;
 }
 
-label  {
-    flex-direction: column;
-    position: relative;
-padding: 12px 12px 12px 0;
-display: inline-block;
+label {
+  flex-direction: column;
+  position: relative;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
-input[type=text], textarea {
-    width: 50%;
-    padding: 12px;
-    box-sizing: border-box;
-        }
+input[type="text"],
+textarea {
+  width: 50%;
+  padding: 12px;
+  box-sizing: border-box;
+}
 
+/* Submit button styling  */
+.submit {
+  color: white;
+  border-color: white;
+  background-color: black;
+  position: relative;
+  margin: auto;
+  margin-bottom: 2%;
+}
 
-
- /* Submit button styling  */
- .submit {
-color: white;
-border-color: white;
-background-color: black;
-position: relative;
-margin: auto;
-margin-bottom: 2%;
-    }
-    
 /* When hover on the button, it pops up */
 .submit:hover {
- transform: translateY(-2px);
-    }
+  transform: translateY(-2px);
+}
 
 footer {
-    margin-top: 10px;
-    background-color:black;
-    text-align: center;
-    padding: 10px;
-  }
+  margin-top: 10px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
 
 footer a:link {
-    text-decoration: none;
-    color: white;
-    }
+  text-decoration: none;
+  color: white;
+}
 
 footer a:visited {
-      color: white;
-        }
-    
+  color: white;
+}
