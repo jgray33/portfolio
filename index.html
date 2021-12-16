@@ -10,30 +10,27 @@
 </head>
 
 <body>
-  <header>
-    <!-- TBC what goes in here -->
 
-  </header>
-
-  <nav>
+  <nav id="nav">
     <ul>
-      <li> <button>
+      <li> <button class="nav-button">
           <a href="#about-me"> About me</a> </button>
       </li>
-      <li> <button>
+      <li> <button class="nav-button">
           <a href="#portfolio"> Portfolio</a> </button>
       </li>
-      <li> <button>
+      <li> <button class="nav-button">
           <a href="#contact-form"> Contact me </a> </button>
       </li>
     </ul>
   </nav>
 
-
-
   <main>
-    <article class="about-me" id="about-me">
+    <header>
       <h1> Julia Gray's Portfolio</h1>
+    </header>
+
+    <article class="about-me" id="about-me">
       <img class="jg-pastry" src=" assets\images\Julia pastry.jpg" alt="Julia eating a cinnamon swirl">
       <div class="about-me-text">
         <h2>About me</h2>
@@ -56,10 +53,10 @@
       <div class="row">
         <div class="column" id="horiseon">
           <div class="card">
-            <h2> HoriSEOn</h2>
+            <h4> HoriSEOn</h4>
             <div class="img-sizing">
               <a href="https://jgray33.github.io/project-work/">
-                <img class="project-img" src="assets\images\horiseon gif.gif"
+                <img class="project-img" src="assets\images\Horiseon Home page.png"
                   alt="screenshot of HoriSEOn marketing page"> </a>
             </div>
           </div>
@@ -67,9 +64,9 @@
 
         <div class="column" id="google">
           <div class="card">
-            <h2>Google</h2>
+            <h4>Google</h4>
             <div class="img-sizing">
-              <a href="https://www.google.com/"> <img class="project-img" src="assets\images\google gif.gif"
+              <a href="https://www.google.com/"> <img class="project-img" src="assets\images\google.png"
                   alt="screenshot of Google"> </a>
             </div>
           </div>
@@ -77,38 +74,34 @@
 
         <div class="column" id="twitter">
           <div class="card">
-            <h2> Twitter </h2>
+            <h4> BBC News </h4>
             <div class="img-sizing">
-              <a href="https://twitter.com/"><img class="project-img" src="assets\images\twitter gif.gif"
+              <a href="https://bbc.co.uk/news"><img class="project-img" src="assets\images\bbc.png"
                   alt="screenshot of twitter"> </a>
             </div>
           </div>
         </div>
-
-
     </article>
-
-
   </main>
 
 
   <form>
     <div class="contact-form" id="contact-form">
-      <h4> Contact me </h4>
-
+      <h5> Contact me </h5>
+      <div class="form-fill"
       <label for="username">Name</label>
       <input id="username" type="text" placeholder="First Last" />
       <br>
       <label for="email">E-mail</label>
       <input id="email" type="text" placeholder="me@example.com" />
       <br>
-      <button class="submit"> Sumbit </button>
-
+      <button class="submit-button"> Sumbit </button>
+    </div>
     </div>
   </form>
 
   <footer>
-    <a href="#header"> Back to the top </a>
+    <a href="#nav"> Back to the top </a>
   </footer>
 
 
