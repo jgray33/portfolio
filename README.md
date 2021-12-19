@@ -1,13 +1,13 @@
 
 # Portfolio 
 
-> Created a portfolio that can showcase my talents to prospecitve employers 
+> Created a portfolio that can showcase my talents to prospective employers 
 
 ## Access the finished project
 
 Click [here](https://jgray33.github.io/portfolio/) to go to my finished project 
 
-### Critera my finished project met
+### Criteria my finished project met
 
 - GIVEN I need to sample a potential employee's previous work
 - WHEN I load their portfolio
