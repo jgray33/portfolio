@@ -26,7 +26,7 @@ h4 {
   justify-content: center;
 }
 
-/* "My projects" heading styling */
+/* "Portfolio" heading styling */
 h3 {
   font-weight: bold;
   font-size: 40px;
@@ -70,9 +70,8 @@ nav ul li a {
   color: white;
 }
 
-/* Button styling - nav links and submit  */
-.nav-button,
-.submit-button {
+/* Button styling - nav links  */
+.nav-button {
   border-color: white;
   padding: 10px 20px;
   background-color: black;
@@ -122,7 +121,12 @@ header {
   padding: 3%;
 }
 
-/* "My projects" box styling */
+/* Centre bio text */
+.bio {
+  text-align: center;
+}
+
+/* "Portfolio" box styling */
 .portfolio {
   width: 80%;
   margin: auto;
@@ -155,34 +159,31 @@ card {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-
 /* Project images: centre images  */
 .project-img {
   max-width: 60%;
   max-height: 60%;
   margin-left: 20%;
   padding-bottom: 10%;
- width: 100%;
-height: 150px;
-object-fit: fill;
+  width: 100%;
+  height: 150px;
+  object-fit: fill;
 }
 
-
-
+/* Making the first project image bigger than the others */
 #first-project {
   width: 90%;
   height: 150%;
   object-fit: fill;
   margin-left: 5%;
   margin-bottom: 5%;
-  
 }
 
+/* Text under horiseon styloing */
 .project-txt {
   text-align: center;
   margin-top: -8%;
 }
-
 
 /* Contact me box styling */
 .contact-me {
@@ -196,7 +197,7 @@ object-fit: fill;
 /* Email styling  */
 .email-me {
   padding: 2%;
-  margin-top: -5%;
+  margin-top: -7%;
 }
 
 /* Twitter and Linked-in icon styling */
@@ -208,9 +209,9 @@ object-fit: fill;
   margin: 5px 2px;
   margin-top: -10%;
   margin-bottom: 2%;
- }
+}
 
- /* Twitter icon styling */
+/* Twitter icon background styling */
 .fa-twitter {
   background: #55acee;
   color: white;
@@ -228,7 +229,7 @@ footer {
   background-color: black;
   text-align: center;
   padding: 10px;
-  }
+}
 
 /* Link color as white */
 footer,
@@ -276,7 +277,7 @@ footer a:visited {
   }
 }
 
-/* When the screen is less that 765 the cards go into columns */
+/* When the screen is less that 1000px the cards go into columns */
 @media screen and (max-width: 1000px) {
   .column {
     width: 100%;
