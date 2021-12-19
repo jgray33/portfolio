@@ -1,14 +1,12 @@
 * {
   font-family: "lato";
-  
 }
 
 :root {
- --darkgreen: #648381 ;
- --light-green: #e5ebea;
- --pink:#ddb8a6 
+  --darkgreen: #648381;
+  --light-green: #e5ebea;
+  --pink: #ddb8a6;
 }
-
 
 /* Julia Gray's Portfolio styling */
 h1 {
@@ -19,7 +17,8 @@ h1 {
 }
 
 /* About me, project names header styling */
-h2, h4{
+h2,
+h4 {
   font-weight: bold;
   color: var(--darkgreen);
   padding: 2%;
@@ -43,9 +42,9 @@ h4 {
 
 /* "Contact me" heading formatting */
 h5 {
-text-align: center;
-font-size: 30px;
-padding: 2%;
+  text-align: center;
+  font-size: 30px;
+  padding: 2%;
 }
 
 /* NavBar background color */
@@ -71,9 +70,9 @@ nav ul li a {
   color: white;
 }
 
-
 /* Button styling - nav links and submit  */
-.nav-button, .submit-button {
+.nav-button,
+.submit-button {
   border-color: white;
   padding: 10px 20px;
   background-color: black;
@@ -128,7 +127,7 @@ header {
   width: 80%;
   margin: auto;
   background-color: var(--light-green);
-  }
+}
 
 /* Project cards: three equal columns that floats next to each other */
 .column {
@@ -164,73 +163,69 @@ card {
   padding-bottom: 10%;
 }
 
-
-/* Contact form box styling */
-form {
-  width: 80%;
-  margin: auto;
-  background-color: var(--pink);
-}
-
-/* Contact form div styling */
-.contact-form {
-   color: white;
-    }
-
-label {
-    padding: 12px 12px 12px 0;
-  }
-
-.form-fill {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-}
-
-
-input[type="text"],
-textarea {
-  width: 20%;
-  padding: 12px;
-  box-sizing: border-box;
-}
-
-/* Submit button styling  */
-.submit-button {
-  color: white;
-  border-color: white;
-  background-color: black;
-  position: relative;
-  margin: auto;
-  margin-bottom: 2%;
-}
-
-
-
-footer {
-  margin-top: 10px;
-  background-color: black;
-  text-align: center;
-  padding: 10px;
-}
-
-footer a:link {
-  text-decoration: none;
-  color: white;
-}
-
-footer a:visited {
-  color: white;
-}
-
 .project-img {
   width: 100%;
   height: 150px;
   object-fit: fill;
 }
 
+/* Contact me box styling */
+.contact-me {
+  width: 80%;
+  margin: auto;
+  background-color: var(--pink);
+  color: white;
+  text-align: center;
+}
+
+.email-me {
+  padding: 2%;
+  margin-top: -5%;
+}
+
+/* Twitter and Linked-in icon styling */
+.fa {
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: -10%;
+  margin-bottom: 2%;
+ }
+
+ /* Twitter icon styling */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Linked-in icon styling */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Foot styling "back to the top" */
+footer {
+  margin-top: 10px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  }
+
+/* Link color as white */
+footer,
+.contact-me a:link {
+  text-decoration: none;
+  color: white;
+}
+
+/* when the link is visited stays as white */
+footer a:visited {
+  color: white;
+  text-decoration: none;
+}
 
 /* When the screen is less than 900, nav links go into a column  */
 @media only screen and (max-width: 900px) {
@@ -238,34 +233,34 @@ footer a:visited {
     height: 230px;
     flex-direction: column;
     text-align: center;
-      }
+  }
 }
 
 /* When the screen is less than 900px, the picture disappears */
 @media screen and (max-width: 900px) {
   .jg-pastry {
-      display: none;
-    }
+    display: none;
   }
+}
 
-  /* When the screen is smaller than 900px, the about-me text box shifts */
+/* When the screen is smaller than 900px, the about-me text box shifts */
 @media screen and (max-width: 900px) {
   .about-me-text {
     width: 80%;
     left: 7%;
-   margin-top: 5%;
-   margin-bottom: 5%;   
-     }
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
+}
 
-  /* When the screen is less than 765px, the "Julia Gray's Portfolio" disappears */
+/* When the screen is less than 765px, the "Julia Gray's Portfolio" disappears */
 @media screen and (max-width: 765px) {
   h1 {
-        display: none;    }
-      }
-    
+    display: none;
+  }
+}
 
-      /* When the screen is less that 765 the cards go into columns */
+/* When the screen is less that 765 the cards go into columns */
 @media screen and (max-width: 765px) {
   .column {
     width: 100%;
