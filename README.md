@@ -34,5 +34,5 @@ Here is what the final project looks like:
 ## Links
 - Repository https://github.com/jgray33/portfolio
 - HTML file https://github.com/jgray33/portfolio/blob/main/index.html 
-- CSS file https://github.com/jgray33/portfolio/blob/main/assets/reset.css
+- CSS file https://github.com/jgray33/portfolio/blob/main/assets/style.css
 
