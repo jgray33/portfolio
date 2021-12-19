@@ -158,18 +158,16 @@ card {
 
 /* Project images: centre images  */
 .project-img {
-  max-width: 50%;
-  max-height: 50%;
-  margin-left: 25%;
+  max-width: 60%;
+  max-height: 60%;
+  margin-left: 20%;
   padding-bottom: 10%;
+ width: 100%;
+height: 150px;
+object-fit: fill;
 }
 
-/* Project cards styling  */
-.project-img {
-  width: 100%;
-  height: 150px;
-  object-fit: fill;
-}
+
 
 #first-project {
   width: 90%;
@@ -178,6 +176,11 @@ card {
   margin-left: 5%;
   margin-bottom: 5%;
   
+}
+
+.project-txt {
+  text-align: center;
+  margin-top: -8%;
 }
 
 
@@ -274,7 +277,7 @@ footer a:visited {
 }
 
 /* When the screen is less that 765 the cards go into columns */
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 100%;
   }
