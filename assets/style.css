@@ -161,9 +161,9 @@ card {
 
 /* Project images: centre images  */
 .project-img {
-  max-width: 60%;
-  max-height: 60%;
-  margin-left: 20%;
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: 25%;
   padding-bottom: 10%;
   width: 100%;
   height: 150px;
