@@ -155,6 +155,7 @@ card {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 /* Project images: centre images  */
 .project-img {
   max-width: 50%;
@@ -163,11 +164,22 @@ card {
   padding-bottom: 10%;
 }
 
+/* Project cards styling  */
 .project-img {
   width: 100%;
   height: 150px;
   object-fit: fill;
 }
+
+#first-project {
+  width: 90%;
+  height: 150%;
+  object-fit: fill;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  
+}
+
 
 /* Contact me box styling */
 .contact-me {
@@ -178,6 +190,7 @@ card {
   text-align: center;
 }
 
+/* Email styling  */
 .email-me {
   padding: 2%;
   margin-top: -5%;
